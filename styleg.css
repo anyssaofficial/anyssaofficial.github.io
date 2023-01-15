@@ -156,6 +156,13 @@ label:hover{
     height: 100%;
     border-radius: 10px;
 }
+
+@media(max-width: 700px){
+    .pic{
+        flex-direction: column;
+    }
+}
+
 .pic::before{
     content: "PHOTO GALLERY";
     position: absolute;
